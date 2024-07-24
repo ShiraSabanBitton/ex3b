@@ -1,0 +1,27 @@
+<!--
+    Authors: Shira Saban Bitton - 316511658, Fida Rabah - 204647911
+    Date: 2024-07-02
+    Description: Task list page for the task manager application. Allows adding, editing, deleting, and reordering tasks.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מנהל המשימות</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="task-container">
+        <h2>רשימת המשימות שלי</h2>
+        <form id="task-form">
+            <input class="text" type="text" id="task-input" placeholder="משימה חדשה">
+            <button class="text" type="submit">הוסף משימה</button>
+        </form>
+        <ul id="task-list"></ul>
+        <button class="text" id="logout">יציאה</button>
+    </div>
+    <script src="tasks.js"></script>
+</body>
+</html>
